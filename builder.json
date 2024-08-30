@@ -1,0 +1,17 @@
+{
+  "appId": "Kayl",
+  "productName": "Kayl_Exam",
+  "files": [
+    "build/**/*",
+    "node_modules/**/*",
+    "main.js"
+  ],
+  "directories": {
+    "output": "dist"
+  },
+  "win": {
+    "target": [
+      "nsis"
+    ]
+  }
+}
